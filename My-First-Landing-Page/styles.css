@@ -1,0 +1,270 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    flex: 1;
+    width: 100%;
+  }
+
+  .logo {
+      display: flex;
+      width: 70px;
+      height: 60px;
+      background-color: #1F2937;
+      margin: 10px;
+      margin-left: 50px;
+      border-radius: 50%;
+  }
+
+  .header {
+      height: 72px;
+      display: flex;
+      flex-direction: row;
+      background-color: #1F2937;
+      color: white;
+      justify-content: space-between;
+      width: 100%;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    gap: 16px;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+  }
+  
+  .right {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin: 10px;
+    margin-right: 50px;
+  }
+
+  .li {
+      list-style-type: none;
+      text-decoration: none;
+      color: #E5E7EB;
+      font-size: 18px;
+  }
+
+  a {
+      text-decoration: none;
+      color:#E5E7EB;
+      font-size: 18px;
+  }
+
+  .main {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      background-color: #1F2937;
+  }
+
+  #left,
+  #right {
+      flex: 2 1 0;
+      margin: 10px;
+      padding: 10px;
+      margin-bottom: 100px;
+  }
+
+.shopfront {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-radius: 25%;
+}
+
+  #left {
+      margin-left: 50px;
+  }
+
+  #right {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-right: 37.5px;
+      border-radius: 25%;
+  }
+
+  p {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: -10px;
+      color: #E5E7EB;
+      font-size: 18px;
+  }
+
+  .heading {
+      display: inline-flex;
+      flex-wrap: wrap;
+      color: #F9FAF8;
+      font-weight: 900;
+      font-size: 48px;
+  }
+
+  .sign-up {
+      background-color: #3882F6;
+      height: 30px;
+      width: 100px;
+      border-radius: 20px;
+      border-color: #3882F6;
+      color: #F9FAF8;
+      font-size: 18px;
+  }
+
+  .body {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      padding: 20px;
+      margin-bottom: 100px;
+      background-color: white;
+  }
+
+  .body h2{
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 32px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-bottom: 40px;
+  }
+
+  .cards {
+    display:flex;
+    justify-content: space-evenly;
+    gap: 1px;
+    flex-flow: row wrap;
+    border-color: #3882F6;
+}
+
+.cards img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+    height: 100px;
+}
+
+  .info {
+      display: flex;
+      flex-flow: row wrap;
+      max-width: 150px;
+      color: #1F2937;
+  }
+
+  body,
+  img {
+      box-sizing: border-box;
+      display: flex;
+      flex: 1 1 auto;
+      float: left;
+      object-fit: cover;
+      width: 100%;
+      border-radius: 25%;
+  }
+
+  .testimonial p {
+    display: flex;
+    color: #1f2937;
+    font-size: 36px;
+    font-family: Roboto;
+    font-style: italic;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    max-width: 500px;
+    font-weight: 100;
+    align-self: center;
+    padding-left: 0px;
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+
+  .testimonial {
+      display: flex;
+      flex-direction: column;
+      background-color: #e5e7eb;
+      color: #1f2937;
+      font-size: 36px;
+      font-weight: 100;
+      font-family: Roboto;
+      font-style: italic;
+      justify-content: center;
+      align-items: flex-end;
+      max-width: 100%;
+  }
+
+  .zak {
+      margin-right: 50px;
+      margin-top: -50px;
+      margin-bottom: 50px;
+  }
+
+  .sign-up-button {
+      display: flex;
+      background-color: #3882F6;
+      color: #F9FAF8;
+      border-radius: 15px;
+      margin: 80px 150px 80px 150px;
+      justify-content: space-around;
+      margin-left: auto;
+      margin-right: auto;
+      height: 140px;
+      width: 1000px;
+  }
+
+  h5 {
+      font-weight: 900;
+      font-size: 18px;
+      margin: 40px 0 0 0;
+  }
+
+  .subtext {
+      margin: 0 0 40px 0;
+  }
+
+  .button {
+      align-self: center;
+      padding: 5px 25px 5px 25px;
+      color: #F9FAF8;
+      background-color: #3882F6;
+      border-radius: 10px;
+      border-color: #F9FAF8;
+  }
+
+  .text {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .footer {
+    height: 72px;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    flex: 1 1 auto;
+    width: 100%;
+  }
+
+  .footer p {
+      font-size: 18px;
+
+  }
